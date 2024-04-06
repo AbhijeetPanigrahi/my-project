@@ -36,3 +36,128 @@
     transform: rotate(360deg);
   }
 }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f0f0f0; /* Change this to your desired background color */
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333; /* Change this to your desired text color */
+}
+
+.navbar .btn {
+  padding: 8px 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc; /* Change this to your desired border color */
+  margin-right: 10px;
+}
+
+.menu {
+  display: flex; /* Changed from 'block' to 'flex' */
+  gap: 10px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin-right: 10px;
+}
+
+.badge {
+  display: inline-block;
+  padding: 3px 6px;
+  border-radius: 3px;
+  background-color: #ff4500; /* Change this to your desired badge background color */
+  color: #fff; /* Change this to your desired badge text color */
+  font-size: 12px;
+  font-weight: bold;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+/* Assuming your navbar has a flex display */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0f0f0; /* Change this to your desired background color */
+  padding: 10px 20px;
+  flex-direction: row;
+}
+
+.menu {
+  display: flex;
+  gap: 20px; /* Adjust the gap as needed */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin-right: 10px; /* Adjust the right margin as needed */
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.badge {
+  display: inline-block;
+  padding: 3px 6px;
+  border-radius: 3px;
+  background-color: #ff4500; /* Change this to your desired badge background color */
+  color: #fff; /* Change this to your desired badge text color */
+  font-size: 12px;
+  font-weight: bold;
+  vertical-align: middle;
+  margin-left: 5px; /* Adjust the left margin as needed */
+}
+
+.navbar ul a {
+  color: white;
+}
+
+.artboard {
+  width: 100%;
+}
+
+.hero {
+  margin: 0;
+  display: flex;
+  gap: 50px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.min-h-screen backgroundImage {
+  filter: blur(8px);
+}
+
+.hero-child {
+  width: 900px;
+}
+
+.SecondPage h1 {
+  font-size: 60px;
+}
+
+.ThirdPage h1 {
+  font-size: 60px;
+}
+
+.AboutPage .artboard {
+  padding-left: 500px;
+}
+
+.AboutPage h1 {
+  font-size: 70px;
+  padding-bottom: 30px;
+}
+
+#slide1 img {
+  padding-right: 300px;
+}
